@@ -1,0 +1,27 @@
+body {font-family: 'Roboto', sans-serif;}
+.title-name {
+    text-decoration: none;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+}
+.title-page-1 {
+    font-family: 'Raleway', sans-serif;
+    color: #2196F3;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 3%;
+    }
+
+.title-page-2 {
+        font-family: 'Oleo Script', sans-serif;
+        color: #000;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 35.96px;
+        letter-spacing: 3%;
+    }
