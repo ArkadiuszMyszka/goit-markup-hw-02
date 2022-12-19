@@ -1,5 +1,9 @@
 body {
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
+.header-main {
+background: #FFFFFF;
+}
 .title-name-header {
     text-decoration: none;
     position: absolute;
@@ -112,4 +116,46 @@ color: #2196F3;}
         height: 16px;
         left: 1263px;
         top: 32px;
+}
+.title-name-footer {
+        text-decoration: none;
+}
+.address-footer {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #FFFFFF;
+}
+.footer-main {
+    background: #2F303A;
+}
+.tel-footer {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        
+    text-decoration: none;
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
+}
+.mail-footer {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration: none;
+    
+        letter-spacing: 0.03em;
+    
+        color: rgba(255, 255, 255, 0.6);
 }
