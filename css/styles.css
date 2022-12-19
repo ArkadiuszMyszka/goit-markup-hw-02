@@ -1,8 +1,15 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
 }
 .header-main {
-background: #FFFFFF;
+position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
 }
 .title-name-header {
     text-decoration: none;
@@ -158,4 +165,123 @@ color: #2196F3;}
         letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);
+}
+.main-top-background {
+    position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;
+    
+        background: #2F303A;
+}
+.text-mainpage {
+    position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+    
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+.button-mainpage {
+    position: absolute;
+        width: 200px;
+        height: 50px;
+        left: 700px;
+        top: 430px;
+    
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+}
+.article-mainpage {
+
+}
+.article-mainpage h3 {
+position: absolute;
+    width: 270px;
+    height: 16px;
+    top: 774px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.article-mainpage-tile-1, .article-mainpage-text-1 {
+    left: 215px;
+}
+.article-mainpage-tile-2, .article-mainpage-text-2 {
+left: 515px;
+}
+.article-mainpage-tile-3, .article-mainpage-text-3 {
+left: 815px;
+}
+.article-mainpage-tile-4, .article-mainpage-text-4 {
+left: 1115px;
+}
+.article-mainpage p {
+position: absolute;
+    width: 270px;
+    height: 75px;
+    top: 800px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+.main-central h2 {
+    position: absolute;
+        width: 352px;
+        height: 42px;
+        left: 624px;
+        top: 919px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.main-central img {
+position: absolute;
+    width: 370px;
+    height: 294px;
+    top: 1061px;
+}
+.main-central-img-1 {
+    left: 215px;
+}
+.main-central-img-2 {
+left: 615px;
+}
+.main-central-img-3 {
+left: 1015px;
 }
