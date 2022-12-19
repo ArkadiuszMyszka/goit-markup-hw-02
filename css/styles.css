@@ -50,7 +50,7 @@ color: #2196F3;}
         text-decoration: none;
         color: #212121;
 }
-.title-header-center:hover, .title-header-center:focus {
+.title-header-center:hover, .title-header-center:focus, .title-header-center:active {
     color: #2196F3;}
 
 .title-header-right:hover, .title-header-right:focus {
@@ -247,4 +247,55 @@ color: #212121;
 }
 .main-bottom li {
     background: #FFFFFF;
+}
+.button-portfolio button {
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.button-portfolio button:hover, .button-portfolio button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+    
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+}
+.portfolio-central li {
+background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
+.portfolio-central h3 {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+.portfolio-central p {
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
 }
