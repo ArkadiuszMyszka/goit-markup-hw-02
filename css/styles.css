@@ -1,27 +1,115 @@
-body {font-family: 'Roboto', sans-serif;}
-.title-name {
+body {
+    font-family: 'Roboto', sans-serif;}
+.title-name-header {
     text-decoration: none;
     position: absolute;
     width: 145px;
     height: 31px;
     left: 215px;
-    top: 24px;
+    top: 24px;}
 
-}
-.title-page-1 {
+.title-side-left {
     font-family: 'Raleway', sans-serif;
     color: #2196F3;
     font-size: 26px;
     font-weight: 700;
     line-height: 30.52px;
-    letter-spacing: 3%;
-    }
+    letter-spacing: 3%;}
 
-.title-page-2 {
+.title-side-right {
         font-family: 'Oleo Script', sans-serif;
         color: #000;
         font-size: 26px;
         font-weight: 400;
         line-height: 35.96px;
-        letter-spacing: 3%;
-    }
+        letter-spacing: 3%;}
+.title-header-left {
+    position: absolute;
+        width: 53px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+
+        text-decoration: none;
+        }
+.title-header-left:hover, .title-header-left:focus {
+color: #2196F3;}
+
+.title-header-center {
+        position: absolute;
+        width: 51px;
+        height: 16px;
+        left: 556px;
+        top: 32px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: #212121;
+}
+.title-header-center:hover, .title-header-center:focus {
+    color: #2196F3;}
+
+.title-header-right:hover, .title-header-right:focus {
+    color: #2196F3;}
+
+.title-header-right {
+        position: absolute;
+        width: 51px;
+        height: 16px;
+        left: 656px;
+        top: 32px;
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+.mail-header {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+        position: absolute;
+        width: 135px;
+        height: 16px;
+        left: 1078px;
+        top: 32px;
+}
+.mail-header:hover, .mail-header:focus, .tel-header:hover, .tel-header:focus {
+    color: #2196F3;
+}
+.tel-header {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: #757575;
+        position: absolute;
+        width: 110px;
+        height: 16px;
+        left: 1263px;
+        top: 32px;
+}
