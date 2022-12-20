@@ -26,8 +26,6 @@ body {
     --brand-color-port-button-hover-boxshadow2: rgba(0, 0, 0, 0.08);
     --brand-color-port-button-hover-boxshadow3: rgba(0, 0, 0, 0.12);
     --brand-color-port-central-border:#EEEEEE;
-    var(--brand-color-port-central-border);
-     
 }
 .header-main {
     background-color: var(--brand-color-background);
