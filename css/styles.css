@@ -54,9 +54,10 @@ body {
         
         text-decoration: none;
         }
-.title-header a:hover, .title-header a:focus, .title-header a:active {
+/*.title-header a:hover, .title-header a:focus, {
 color: var(--brand-color-hover);
 }
+*/
 .mail-header {
     text-decoration: none;
     font-weight: 500;
@@ -65,10 +66,14 @@ color: var(--brand-color-hover);
     letter-spacing: 0.02em;
     color: var(--brand-color-contact-header);
 }
+/*
 .mail-header:hover, .mail-header:focus, .tel-header:hover, .tel-header:focus {
 color: var(--brand-color-hover);
 }
-.link-
+*/
+.link-active-color:hover, .link-active-color:focus {
+    color: var(--brand-color-hover);
+}
 .tel-header {
         font-weight: 500;
         font-size: 14px;
@@ -103,9 +108,10 @@ color: var(--brand-color-hover);
         letter-spacing: 0.03em;
         color: var(--brand-color-contact-footer);
 }
+/*
 .mail-footer:hover, .mail-footer:focus, .tel-footer:hover, .tel-footer:focus {
 color: var(--brand-color-hover);
-}
+}*/
 .main-top-background {
         background-color: var(--brand-color-background-main-top);
 }
@@ -187,7 +193,7 @@ letter-spacing: 0.03em;
         letter-spacing: 0.03em;
        
 }
-.button-portfolio button:hover, .button-portfolio button:focus {
+.button-portfolio button:hover,.button-portfolio button:focus {
     background-color: var(--brand-color-hover);
     color: var(--brand-color-port-button-hover);
             box-shadow: 0px 3px 1px var(--brand-color-port-button-hover-boxshadow1), 0px 1px 2px var(--brand-color-port-button-hover-boxshadow2), 0px 2px 2px var(--brand-color-port-button-hover-boxshadow3);
