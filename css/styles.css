@@ -1,9 +1,6 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
-    color:#212121
-}
 :root {
+    --brand-color-background-overall: #E5E5E5;
+    --brand-color-font-overall: #212121;
     --brand-color-hover: #2196F3;
     --brand-color-background: #FFFFFF;
     --brand-color-titleleft: #2196F3;
@@ -23,6 +20,11 @@ body {
     --brand-color-port-button-hover-boxshadow2: rgba(0, 0, 0, 0.08);
     --brand-color-port-button-hover-boxshadow3: rgba(0, 0, 0, 0.12);
     --brand-color-port-central-border:#EEEEEE;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--brand-color-background-overall);
+    color:var(--brand-color-font-overall);
 }
 .header-main {
     background-color: var(--brand-color-background);
